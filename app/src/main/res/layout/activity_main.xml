@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="RESULTADO LISTAS"
+        android:textColor="#673AB7"
+        android:textSize="33dp" />
+
+    <TextView
+        android:id="@+id/txtCantidadCochesMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Coches: 0"
+        android:textColor="#673AB7"
+        android:textSize="33dp" />
+
+    <Button
+        android:id="@+id/btnContarCochesMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONTAR COCHES"
+        android:textSize="24dp"
+        app:cornerRadius="0dp" />
+
+    <TextView
+        android:id="@+id/txtCantidadMotosMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Motos: 0"
+        android:textColor="#673AB7"
+        android:textSize="33dp" />
+
+    <Button
+        android:id="@+id/btnContarMotosMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONTAR MOTOS"
+        android:textSize="24dp"
+        app:cornerRadius="0dp" />
+
+    <TextView
+        android:id="@+id/txtCanitdadBicisMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Bicis: 0"
+        android:textColor="#673AB7"
+        android:textSize="33dp" />
+
+    <Button
+        android:id="@+id/btnContarBicisMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONTAR BICIS"
+        android:textSize="24dp"
+        app:cornerRadius="0dp" />
+</LinearLayout>
